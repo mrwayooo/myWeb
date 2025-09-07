@@ -41,6 +41,16 @@ function submitForm() {
   }
 }
 
+const firebaseConfig = {
+  apiKey: "AIzaSyDo9aQkrOp5PzXZPRfg68sAfyEE3lf0lu8",
+  authDomain: "my-web-60fb1.firebaseapp.com",
+  projectId: "my-web-60fb1",
+  storageBucket: "my-web-60fb1.firebasestorage.app",
+  messagingSenderId: "211827536540",
+  appId: "1:211827536540:web:01f096d13a02cff426f359",
+  measurementId: "G-3B40R8KDFG"
+};
+
 function logout() {
   document.getElementById("dashboard").style.display = "none";
   document.getElementById("login-form").style.display = "block";
@@ -51,3 +61,4 @@ function logout() {
   document.getElementById("form-title").innerText = "เข้าสู่ระบบ";
   document.querySelector("a").innerText = "👉 ยังไม่มีบัญชี? สมัครสมาชิก";
 }
+
